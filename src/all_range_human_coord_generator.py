@@ -71,6 +71,7 @@ class MilkyCtrMegarover():
             file.truncate(0)
             yaml.dump(self.human_location_dict, file, encoding='utf-8', allow_unicode=True)
         self.human_location_dict = {}
+        return "True"
                 
         
         
